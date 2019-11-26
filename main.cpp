@@ -43,7 +43,6 @@ cout << "\t\t\t*__________________________*\n"
      << "You've watch enough zombie shows but you never thought it would be a reality, and now it's complete chaos. You and your partner aim for the heads of a hoard of zombie and fire off a few more rounds while you let in some uninfected off the street. You both slam the doors shut.";
 
 
-
      do{
 
 cout<< " What would you like to do?\n\n"
@@ -301,7 +300,7 @@ cout<< " What would you like to do?\n\n"
 
                                            break;
 
-                                           case 4: cout << "You decide to go to the hospital where she works as a nurse.\n\n";
+                                   case 4: cout << "You decide to go to the hospital where she works as a nurse.\n\n";
 
                                            break;
 
@@ -312,8 +311,41 @@ cout<< " What would you like to do?\n\n"
                                            cout << "Invalid entry.\n\n";
 
                                            break;
+    
+                                          
+                                          
+           
+                                          
+                                          
+               //player finding is wife in the mall
+                                          
 
-                                   
+switch (case 3) {
+     cout <<end<< "Here you're are in the mall.\n\n";
+}
+   if attchoice1 >> zombie
+        cout>> "Zombie is about to attack you and your wife might be in the gas station nearby";
+                                          
+           }
+                   else {
+                       cout>>" there is no threat here so you might can find your love here";
+                   }
+         //player fight zombie in the mall to get out of the mall
+                                                                
+     cout <<"fighting ..."<< endl;
+     keepfighting(1);                            
+     
+                                    
+     if (z1hp<3){
+          playersalive = "yes";
+          cout<< "youre alive and still have a hope to find your wife"; //gets out of the mall
+     }
+         else {
+              cout << "You have died. and No more chance to find your wife" <<endl;
+              
+          
+      
+                                         
                                    
         }
 
@@ -324,7 +356,3 @@ system ("pause");
 
 return 0;
 
-
-
-}
-}
